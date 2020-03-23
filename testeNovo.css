@@ -1,0 +1,85 @@
+body {
+    background-color: navajowhite;
+}
+
+#title {
+    color: mediumslateblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#nome-usuario {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+#resultados {
+    color: indigo;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container-respostas {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+#title-respostas-certas {
+    color: green;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+
+#title-respostas-erradas {
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+
+#respostasCorretas {
+    color:grey;
+    background-color: #e5c0c6;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    position: absolute;
+    left: 100px;
+    padding: 5px;
+    margin: 10px;
+    border:3px solid mediumslateblue;
+    display: inline-block;
+    width: 320px;
+    height: 300px;
+}
+
+#respostasErradas {
+    color:grey;
+    background-color: #e5c0c6;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    position: absolute;
+    right: 100px;
+    padding: 5px;
+    margin: 10px;
+    border:3px solid mediumslateblue;
+    display: inline-block;
+    width: 320px;
+    height: 300px;
+}
